@@ -1,0 +1,54 @@
+#container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container .equipo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 20px;
+}
+
+#container .equipo .item {
+  border-radius: 5px;
+  padding: 20px 15px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+
+  * {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  button {
+    padding: 8px 20px;
+    border-radius: 30px;
+    background-color: #FF008A;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    transition: .15s all ease-in-out;
+  }
+  button:hover {
+    transform: scale(.9);
+  }
+}

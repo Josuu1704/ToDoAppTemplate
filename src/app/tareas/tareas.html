@@ -1,0 +1,39 @@
+<div class="contenedor">
+    <button (click)="toggle()">Ocultar / Mostrar</button>
+
+    <div class="tarjeta {{ val ? 'disable' : '' }}">
+        <img src="descarga.png" alt="logo">
+        <div class="info">
+            <h3>Sr. Product Designer</h3>
+            <p>Apple • United States</p>
+        </div>
+        <span class="menu">⋮</span>
+    </div>
+
+    <div class="tarjeta impar {{ val ? 'disable' : '' }}">
+        <img src="google.png" alt="logo">
+        <div class="info">
+            <h3>Desarrollador Web</h3>
+            <p>Google • United States</p>
+        </div>
+        <span class="menu">⋮</span>
+    </div>
+
+    <div class="tarjeta {{ val ? 'disable' : '' }}">
+        <img src="amazon.png" alt="logo">
+        <div class="info">
+            <h3>Analista de Sitemas</h3>
+            <p>Amazon • United States</p>
+        </div>
+        <span class="menu">⋮</span>
+    </div>
+
+    <div class="tarjeta impar {{ val ? 'disable' : '' }}">
+        <img src="microsoft.png" alt="logo">
+        <div class="info">
+            <h3>Ingeniero de Software</h3>
+            <p>Microsoft • United States</p>
+        </div>
+        <span class="menu">⋮</span>
+    </div>
+</div>
