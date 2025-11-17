@@ -3,10 +3,11 @@ import {Login} from './login/login';
 import {Register} from './register/register';
 import {Practicando} from './practicando/practicando';
 import {Tareas} from "./tareas/tareas";
+import {AprendiendoBootstrap} from "./aprendiendo-bootstrap/aprendiendo-bootstrap";
 
 @Component({
   selector: 'app-root',
-    imports: [Practicando, Tareas],
+    imports: [AprendiendoBootstrap],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
