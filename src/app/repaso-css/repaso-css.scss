@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+#contenedor_principal{
+  background-color: #e3d1d1;
+  padding: 0;
+  margin: 0;
+}
+
+#barra_superior{
+  display: flex;
+  align-items: center; //Centra en el medio
+  justify-content: space-between; //separa elementos; center: centro los elementos
+  padding: 3% 5%;
+}
+
+#boton_volver, #carrito{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 110%;
+}
+
+#busqueda{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#buscar, #lupa{
+  border: none;
+  padding: 2% 5%;
+  margin: 1%;
+}
+#lupa {
+  background: #02ffb4;
+  border-radius: 15%;
+}
+
+#buscar{
+  border-radius: 1%;
+}
+#titulo{
+  font-size: 110%;
+}
+
+#categoria{
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+#comida{
+  margin: 5% auto;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 10%;
+  padding: 3%;
+  font-size: 90%;
+  cursor: pointer;
+}
+#comida:hover{
+  border: 2px solid #02ffb4;
+  color: #02ffb4;
+}
+
+#Recetas{
+  display: flex; //la forma del contenedor, si column, seguido... puede ser grid tambien
+  flex-direction: column; //la forma en la que va a ir
+  align-items: center;
+  padding: 5%;
+  margin: 1%;
+}
+
+
+.imagen{
+  width: 50%;
+  height: 50%;
+  padding: 2%;
+}
+.plato{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 5%;
+  margin: 3%;
+  width: 100%;
+
+}
+
+.nombre{
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.descripcion{
+  font-size: 75%;
+  color: #797575;
+}
+
+.precio{
+  font-weight: bold;
+  font-size: 75%;
+}
+
+#footer{
+  background: #000000;
+  margin:0;
+  padding: 2%;
+  justify-items: center;
+}
+#Obeo, #p{
+  color: #ffffff;
+  padding: 2%;
+}
