@@ -7,10 +7,12 @@ import {AprendiendoBootstrap} from "./aprendiendo-bootstrap/aprendiendo-bootstra
 import {LoginB} from "./login-b/login-b";
 import {RepasoCSS} from "./repaso-css/repaso-css";
 import {RepasandoBoots} from "./repasando-boots/repasando-boots";
+import {Routes} from "./routes/routes";
+import {RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-root',
-    imports: [ RepasandoBoots],
+    imports: [Routes, RepasoCSS, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
